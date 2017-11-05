@@ -85,6 +85,15 @@ body {
 	top: 0;
 }
 
+.illustration5 {
+	position: ;
+	width: 500px;
+	height: 500px;
+	margin-right: -200px;
+	float: right;
+	bottom: 0;
+}
+
 #wrapper {
 	padding:200px 40px 100px 40px;
 	max-width:800px;
@@ -121,18 +130,20 @@ body {
 	
 }
 
-.four {
+
+
+.stundenblume {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	
 	display: inline-block;
 }
 
-.four .textbox {
+.stundenblume .textbox {
 	margin-left: 50px;
 }
 
-.four img{
+.stundenblume img{
 	position: ;
 	display: inline;
 	height: 500px;
@@ -140,9 +151,84 @@ body {
 	float: left;
 }
 
+.stundenblume p, .stundenblume h5 {
+	display: inline;
+	vertical-align: top;
+}
+
+.four {
+	margin-top: 100px;
+	margin-bottom: 00px;
+	
+	display: inline-block;
+}
+
+.four .textbox {
+	
+}
+
+.four img{
+	position: ;
+	display: inline;
+	height: 500px;
+	width: auto;
+	float: right;
+	margin-left: 50px;
+}
+
 .four p, .four h5 {
 	display: inline;
 	vertical-align: top;
+}
+
+.medis {
+	margin-top: 00px;
+	margin-bottom: 100px;
+	
+	display: inline-block;
+}
+
+.medis .textbox {
+	margin-bottom: 30px;
+}
+
+.medis img{
+	position: ;
+	display: inline;
+	height: 400px;
+	width: auto;
+	
+	margin-left: 0px;
+}
+
+.medis p, .medis h5 {
+	display: inline;
+
+}
+
+.seiffertfilm {
+	margin-top: 00px;
+	margin-bottom: 100px;
+	
+	display: inline-block;
+}
+
+.seiffertfilm .textbox {
+	margin-bottom: 30px;
+}
+
+.seiffertfilm img{
+	position: ;
+	display: inline;
+	height: 400px;
+	width: auto;
+	
+	margin-left: 0px;
+}
+
+.seiffertfilm p, .seiffertfilm h5 {
+	display: inline;
+
 }
 
 .postbody, p { 
