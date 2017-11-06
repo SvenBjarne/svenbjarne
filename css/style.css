@@ -31,7 +31,7 @@ h4 {
 
 h5 { 
 	font-size:15px;  
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
 }
 
 a {
@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
-	font-family: "HelveticaNeue";
+	font-family: "HelveticaNeue", "Helvetica";
 	color:#888;
 	background: #ffffff;
 	-webkit-font-smoothing:antialiased;
@@ -85,13 +85,13 @@ body {
 	top: 0;
 }
 
-.illustration5 {
-	position: ;
+.illustration5, .illustration10, .illustration11, .illustration12, .illustration13 {
+	position: absolute;
 	width: 500px;
 	height: 500px;
-	margin-right: -200px;
-	float: right;
-	bottom: 0;
+	right: 0;
+	top: 4300px;
+		
 }
 
 #wrapper {
@@ -105,6 +105,39 @@ body {
 	
 	display: inline-block;
 
+}
+
+.waldskulpturenwegBackground {
+
+	margin-top: 350px;
+	margin-left: -150px;
+	width: 700px;
+	height: 100px;
+	background-color: #f8f8f8;
+	position: absolute;
+	z-index: -5;
+}
+
+.stundenblumeBackground {
+
+	margin-top: 650px;
+	margin-left: 350px;
+	width: 300px;
+	height: 200px;
+	background-color: #EBEAEE;
+	position: absolute;
+	z-index: -5;
+}
+
+.fourBackground {
+
+	margin-top: 850px;
+	margin-left: -150px;
+	width: 700px;
+	height: 40px;
+	background-color: #EDEEEA;
+	position: absolute;
+	z-index: -5;
 }
 
 .waldskulpturenweg img{
@@ -183,7 +216,7 @@ body {
 
 .medis {
 	margin-top: 00px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	
 	display: inline-block;
 }
@@ -208,7 +241,7 @@ body {
 
 .seiffertfilm {
 	margin-top: 00px;
-	margin-bottom: 100px;
+	margin-bottom: 00px;
 	
 	display: inline-block;
 }
@@ -244,7 +277,7 @@ body {
 }
 
 .header-title {
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
 	color: #888888;
 	
 }
